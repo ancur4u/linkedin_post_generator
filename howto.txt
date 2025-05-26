@@ -1,0 +1,11 @@
+make sure you create a ".env" file to record all API keys specifically OPENAI_API_KEY in following format:
+OPENAI_API_KEY=
+LANGCHAIN_API_KEY=
+LANGCHAIN_TRACING_V2=true
+USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+
+
+and then run -> ./setup_python_project.sh
+This will create a venv python environment to run the following command from terminal:
+streamlit run linkedin_post.py
+
